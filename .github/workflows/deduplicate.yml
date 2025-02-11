@@ -11,7 +11,7 @@ on:
       - '.github/workflows/deduplicate.yml'
   push:
     branches:
-      - 'develop'
+      - 'testing'
     paths:
       - '**.php'
       - '.github/workflows/deduplicate.yml'
